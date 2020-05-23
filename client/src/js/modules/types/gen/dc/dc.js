@@ -16,14 +16,9 @@ define([
         events: {
             'click .distl': 'showPlot',
             'click .diffraction': 'showDiff',
-            'click .atp': 'addToProject',
-            'click .flag': 'flag',
-            'click .comments': 'showComments',
             'click a.dl': 'showPlot',
-            'click a.sn': 'showSnapshots',
             'click a.assoc': 'associateSample',
             'click a.dd': utils.signHandler,
-            'click a.attach': 'attachments',
         },
 
         associateSample: function(e) {
